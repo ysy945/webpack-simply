@@ -1,0 +1,41 @@
+{
+  "name": "webpack-simply",
+  "version": "1.0.0",
+  "description": "this is an easy webpack",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.17.3",
+    "@babel/traverse": "^7.17.3",
+    "@babel/types": "^7.17.0",
+    "babel-generator": "^6.26.1",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "chalk": "^4.1.2",
+    "ejs": "^3.1.6",
+    "express": "^4.18.1",
+    "html-minifier-terser": "^7.0.0-alpha.2",
+    "jsx-to-js-ysy": "^1.0.0",
+    "less": "^4.1.2",
+    "loader-runner": "^4.2.0",
+    "mime": "^3.0.0",
+    "mkdirp": "^1.0.4",
+    "posthtml-parser": "^0.11.0",
+    "posthtml-render": "^3.0.0",
+    "socket.io": "^4.5.1",
+    "tapable": "^2.2.1",
+    "terser": "^5.13.1",
+    "watch-ysy": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node ./debugger.js",
+    "start": "node ./debugger.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
